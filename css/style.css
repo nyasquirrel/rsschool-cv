@@ -1,7 +1,22 @@
-.wrapper {
-  display: flex;
+main {
+  margin-bottom: 50px;  
 }
 .container {
   width: 90%;
   margin: 0 auto;
+}
+.header__wrapper {
+  display: flex;
+  padding: 0 20px;
+}
+.header__photo {
+  margin-right: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+}
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
 }
