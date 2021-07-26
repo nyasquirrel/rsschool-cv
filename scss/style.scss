@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "LeagueSpartan";
+  src: url('../fonts/LeagueSpartan-Bold.otf');
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Semibold.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Bold.ttf");
+  font-weight: 700;
+}
+
+
+$white: #f8f7f7;
+$orange: #f36c4b;
+$black: #202020;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: $white;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: "LeagueSpartan", sans-serif;
+  }
+}
+
+.container { 
+  width: 1080px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+}
+
+
+@import "footer";
+@import "header";
+@import "info";
+@import "sidebar";

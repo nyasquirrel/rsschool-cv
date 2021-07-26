@@ -6,43 +6,119 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <title>CV: nyasquirrel</title>
+  <title>CV: @nyasquirrel</title>
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <div class="container">
-      <div class="header__wrapper">
-        <img src="./img/avatar/photo.jpg" alt="My photo" width="280" height="280" class="header__photo">
-        <h1>CV: Alexandr Kachan</h1>
+      <div class="header__inner">
+        <h1>Alexandr Kachan</h1>
+        <div class="header__desc">Junior<br> Front-end</div>
+
       </div>
     </div>
   </header>
   <main>
     <div class="container">
-      <ol>
-        <li>tg: https://t.me/nyasquirrel.</li>
-        <li>I work in SEO. Trying to learn webdev. My goal is to become a JS developer (backend in priority). </li>
-        <li>My little knowledge: html (BEM), css (scss), js (basic).</li>
-        <li>You can look at my humble repositories: https://github.com/nyasquirrel?tab=repositories.</li>
-        <li>I finished only courses from htmlacademy.</li>
-        <li>My English is bad enough :с.</li>
-      </ol>
+      <div class="wrapper">
+        <div class="info">
+          <section class="info__feature">
+            <h3 class="info__title">About me</h3>
+            <div class="info__feaure-inner">
+              <div class="info__subtitle">Minsk, Belarus</div>
+              <div class="info__job">27 y.o</div>
+              <p class="info__txt">I work in SEO and have a great desire to move into the field of web development. At
+                the moment, in the process of studying react.js.</p>
+            </div>
+          </section>
+          <section class="info__feature">
+            <h3 class="info__title">Work History</h3>
+            <div class="info__feature-inner">
+              <div class="info__subtitle">Middle SEO</div>
+              <div class="info__job">ATL group | 2018 - present</div>
+              <p class="info__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas unde omnis optio eum
+                reiciendis est.</p>
+            </div>
+            <div class="info__feature-inner">
+              <div class="info__subtitle">Middle SEO</div>
+              <div class="info__job">Bydesign | 2017 - 2018</div>
+              <p class="info__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, error amet
+                deleniti corporis nostrum unde autem quae ut iure. Vero explicabo, architecto voluptatibus soluta quo
+                expedita aperiam eveniet assumenda commodi maiores vitae ea? Libero, reprehenderit.</p>
+            </div>
+            <div class="info__feature-inner">
+              <div class="info__subtitle">Junior SEO</div>
+              <div class="info__job">Strela Guru | 2016 - 2017</div>
+              <p class="info__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores praesentium totam
+                nam dolorum explicabo possimus.</p>
+            </div>
+          </section>
+          <section class="info__feature">
+            <h3 class="info__title">Education History</h3>
+            <div class="info__feature-inner">
+              <div class="info__subtitle">BSUIR</div>
+              <div class="info__job">IEF</div>
+              <p class="info__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt.</p>
+            </div>
+          </section>
+
+        </div>
+        <aside class="sidebar">
+          <img src="./img/avatar/photo.jpg" alt="Victoria's Secret Angel" width="280" height="280"
+            class="sidebar__photo">
+          <section class="sidebar__feature">
+            <h3 class="sidebar__title">Skills</h3>
+            <ul class="sidebar__list">
+              <li class="sidebar__list-el sidebar__list-el--marked">HTML</li>
+              <li class=" sidebar__list-el sidebar__list-el--marked">CSS (Scss)</li>
+              <li class="sidebar__list-el sidebar__list-el--marked">JS</li>
+              <li class="sidebar__list-el sidebar__list-el--marked">SEO</li>
+            </ul>
+          </section>
+          <section class="sidebar__feature">
+            <h3 class="sidebar__title">Contacts</h3>
+            <ul class="sidebar__list">
+              <li class="sidebar__list-el">email: <a class="sidebar__list-link"
+                  href="mailto:seo.squirrel@yandex.ru">seo.squirrel@yandex.ru</a>
+              </li>
+              <li class="sidebar__list-el">tg: <a class="sidebar__list-link"
+                  href="https://t.me/nyasquirrel">@nyasquirrel</a></li>
+              <li class="sidebar__list-el">mobile: <a class="sidebar__list-link" href="tel:+375257635558">+375 25
+                  763-55-58</a></li>
+            </ul>
+          </section>
+          <section class="sidebar__feature">
+            <h3 class="sidebar__title">English</h3>
+            <ul class="sidebar__list">
+              <li class="sidebar__list-el">A1-A2</li>
+            </ul>
+          </section>
+          <section class="sidebar__feature">
+            <h3 class="sidebar__title">Portfolio</h3>
+            <ul class="sidebar__list">
+              <li class="sidebar__list-el"><a class="sidebar__list-link"
+                  href="https://nyasquirrel.github.io/gameBox/">GameBox</a> | <a class="sidebar__list-link"
+                  href="https://github.com/nyasquirrel/gameBox/blob/master/script.js">Code</a>
+              </li>
+            </ul>
+          </section>
+        </aside>
+      </div>
     </div>
   </main>
-  <footer>
+  <footer class="footer">
     <div class="container">
       <div class="footer__wrapper">
-        <section>
+        <div class="footer__year">
           2021
-        </section>
-        <section class="logo">
-          <img src="https://rs.school/images/rs_school_js.svg" alt="Logo" width="75" height="75">
-        </section>
-
-        <section class="link">
+        </div>
+        <div class="footer__logo">
+          <img src="https://rs.school/images/rs_school_js.svg" alt="Victoria Secret" width="75" height="75">
+        </div>
+        <div class="footer__link">
           <a href="https://rs.school/js/">RSSchool JS</a>
-        </section>
+        </div>
       </div>
     </div>
   </footer>
